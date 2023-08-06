@@ -1,0 +1,7 @@
+tanzimat_modernization_efforts_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	country_bureaucracy_mult = -0.25
+	country_authority_mult = -0.25
+	country_law_enactment_success_add = 0.15
+}
+

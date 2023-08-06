@@ -1,0 +1,12 @@
+IZM = {
+	color = {204 59 59}
+	
+	tier = principality
+
+	country_type = recognized
+
+	cultures = { turkish }
+
+	capital = STATE_AYDIN
+
+}

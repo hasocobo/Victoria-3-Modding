@@ -1,0 +1,20 @@
+﻿DIPLOMACY = {
+	c:GBR = {
+		create_diplomatic_pact = {
+			country = c:POR
+			type = defensive_pact
+		}	
+		create_diplomatic_pact = {
+			country = c:KUR
+			type = defensive_pact
+		}	
+		create_diplomatic_pact = {
+			country = c:IRQ
+			type = defensive_pact
+		}	
+		create_diplomatic_pact = {
+			country = c:GRE
+			type = defensive_pact
+		}	
+	}
+}

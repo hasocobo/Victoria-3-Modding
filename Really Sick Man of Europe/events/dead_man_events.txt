@@ -1,0 +1,79 @@
+namespace = dead_man
+
+# start event
+dead_man.1 = {
+	type = country_event
+	placement = root
+	title = dead_man.1.t
+	desc = dead_man.1.d
+	flavor = dead_man.1.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_factory_closed"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = dead_man.1.a
+		default_option = yes
+		set_global_variable = tanzimat_efforts_chosen
+	
+	}
+}
+
+dead_man.2 = {
+	type = country_event
+	placement = root
+	title = dead_man.2.t
+	desc = dead_man.2.d
+	flavor = dead_man.2.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_factory_closed"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = dead_man.2.a
+		default_option = yes
+		add_journal_entry = {
+			type = je_revive_our_legacy_main
+	}
+	
+	}
+
+	option = {
+		name = dead_man.2.b
+		add_journal_entry = {
+			type = je_kill_the_sick_man_main
+	}
+	}
+}
+
+
+
+
